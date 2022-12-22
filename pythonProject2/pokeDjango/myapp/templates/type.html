@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <title>Type</title>
+</head>
+<body onload="myFunction()">
+<script>
+  function myFunction(){
+ document.getElementById('Eau').style.backgroundColor = "#5CB2DE",
+ document.getElementById('Feu').style.backgroundColor = "#FF9631",
+ document.getElementById('Ténèbres').style.backgroundColor = "#58596B",
+ document.getElementById('Fée').style.backgroundColor = "#F38CD6",
+ document.getElementById('Dragon').style.backgroundColor = "#1D6BBC",
+ document.getElementById('Électrik').style.backgroundColor = "#FFCE38",
+ document.getElementById('Normal').style.backgroundColor = "#98978F",
+ document.getElementById('Insecte').style.backgroundColor = "#97D300",
+ document.getElementById('Plante').style.backgroundColor = "#2E9F40",
+ document.getElementById('Psy').style.backgroundColor = "#FE8D7A",
+ document.getElementById('Glace').style.backgroundColor = "#6DD5CB",
+ document.getElementById('Acier').style.backgroundColor = "#2B7C91",
+ document.getElementById('Spectre').style.backgroundColor = "#7973C2",
+ document.getElementById('Sol').style.backgroundColor = "#CC7739",
+ document.getElementById('Poison').style.backgroundColor = "#D851C6",
+ document.getElementById('Vol').style.backgroundColor = "#728CDA",
+ document.getElementById('Combat').style.backgroundColor = "#D44F65",
+ document.getElementById('Roche').style.backgroundColor = "#CDC067"}
+  function myFunctionPlante(){
+      document.getElementById('plante').style.display = 'block'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionFeu(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'block'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionEau(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'block'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionSol(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'block'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionVol(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'block'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionPoison(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'block'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionDragon(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'block'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionElek(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'block'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionGlace(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'block'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionInsecte(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'block'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionRoche(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'block'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionPsy(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'block'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionFée(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'block'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionAcier(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'block'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionTénèbres(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'block'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionSpectre(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'block'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionCombat(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'block'
+      document.getElementById('normal').style.display = 'none'
+  }
+  function myFunctionNormal(){
+      document.getElementById('plante').style.display = 'none'
+      document.getElementById('feu').style.display = 'none'
+      document.getElementById('eau').style.display = 'none'
+      document.getElementById('sol').style.display = 'none'
+      document.getElementById('vol').style.display = 'none'
+      document.getElementById('poison').style.display = 'none'
+      document.getElementById('dragon').style.display = 'none'
+      document.getElementById('elek').style.display = 'none'
+      document.getElementById('glace').style.display = 'none'
+      document.getElementById('insecte').style.display = 'none'
+      document.getElementById('roche').style.display = 'none'
+      document.getElementById('psy').style.display = 'none'
+      document.getElementById('fee').style.display = 'none'
+      document.getElementById('acier').style.display = 'none'
+      document.getElementById('tenebre').style.display = 'none'
+      document.getElementById('spectre').style.display = 'none'
+      document.getElementById('combat').style.display = 'none'
+      document.getElementById('normal').style.display = 'block'
+  }
+
+</script>
+<style>
+    button{
+        text-decoration: none;
+    }
+</style>
+  <h1>Le pokedex !</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../fr">Pokedex</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="https://pokebuildapi.fr/api/v1">Api <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="en">English</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+   <h5> Liste des types: </h5>
+   {% for type in type.listType %}
+    <a style="color: white" onclick="myFunction{{type.name}}()" href="#">
+        <span id="{{type.name}}" class="badge">{{type.name}}</span>
+    </a>
+    {% endfor %}
+
+    <div id="normal" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Normale: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listNormal %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="combat" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Combat: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listCombat %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="vol" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Vol: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listVol %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="poison" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Poison: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listPoison %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="sol" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Sol: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listSol %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="roche" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Roche: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listRoche %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="insecte" class="container" style="display: none; padding-top: 80px">
+        <h2>Liste des pokémons Insecte: </h2>
+      <div class="row py-5">
+
+        {% for eau in list.listInsecte %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="spectre" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Spectre: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listSpectre %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="acier" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Acier: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listAcier %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="feu" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Feu: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listFeu %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="eau" class="container" style="display: none; padding-top: 80px">
+        <h2>Liste des pokémons Eau: </h2>
+      <div class="row py-5">
+        {% for eau in list.listEau %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{poke_fr.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="plante" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Plante: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listPlante %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="elek" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Electrik: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listÉlectrik %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="psy" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Psy: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listPsy %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="glace" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Glace: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listGlace %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="dragon" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Dragon: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listDragon %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="tenebre" class="container" style="display: none; padding-top: 80px">
+      <h2>Liste des pokémons Ténèbres: </h2>
+        <div class="row py-5">
+
+        {% for eau in list.listTénèbres %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+    <div id="fee" class="container" style="display: none; padding-top: 80px">
+     <h2>Liste des pokémons Fée: </h2>
+      <div class="row py-5">
+
+        {% for eau in list.listFée %}
+        <div class="col-3 p-4">
+            <a class="card text-decoration-none" style="max-width: 18rem;" href="pokemon_fr/{{eau.id}}">
+              <img class="card-img-top" src={{eau.img}}>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-center"><a href="pokemon_fr/{{eau.id}}">{{eau.name}}</a></h5>
+                <h6 class="card-title text-center">Numero de pokedex: {{eau.id}}</h6>
+            </div>
+          </div>
+      {% endfor %}
+     </div>
+    </div>
+</body>
+</html>
